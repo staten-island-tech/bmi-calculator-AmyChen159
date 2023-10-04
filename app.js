@@ -1,12 +1,16 @@
-function add(x, y) {
-    //creates an output
-    return x + y;
-}
-const sum = add(12,13);
-console.log(sum);
+const x = Number(prompt("enter your height in inches"))
+const y = Number(prompt("enter your weight in pounds"))
 
-function calc(){
-    const sum = add(1, 12);
-    console.log(sum);
+function calc(x,y){
+    console.log(y/(x*x)*703);
 }
-calc();
+calc(x,y);
+
+function BMI(){
+    if (x < 18.5){
+        console.log("underweight");
+    } else {
+        console.log("Healthy weight");
+    }
+}
+BMI(calc(x,y));
