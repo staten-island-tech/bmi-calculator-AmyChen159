@@ -1,20 +1,20 @@
 const x = Number(prompt("enter your height in inches"))
 const y = Number(prompt("enter your weight in pounds"))
 
-function calc(x,y){
+function BMI(x,y){
     console.log(y/(x*x)*703);
 }
-calc(x,y);
+BMI(x,y);
 
-function BMI(){
-    if (x < 18.5){
+
+function calc(BMI) {
+    if (BMI < 18.5){
         console.log("underweight");
+    } else if (BMI < 24.9){
+        console.log("healthy weight");
     } else {
-        console.log("Healthy weight");
+        console.log("overweight");
     }
 }
-BMI(calc(x,y));
 
-function BMI2(){
-    if 
-}
+calc(BMI);
