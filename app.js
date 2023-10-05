@@ -14,3 +14,7 @@ function BMI(){
     }
 }
 BMI(calc(x,y));
+
+function BMI2(){
+    if 
+}
