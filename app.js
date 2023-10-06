@@ -15,5 +15,8 @@ function calc(BMI) {
     } else {
         console.log("overweight");
     }
+    if (BMI > 30){
+        console.log("obese")
+    }
 }
-
+calc(y/(x*x)*703)
