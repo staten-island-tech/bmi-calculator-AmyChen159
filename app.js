@@ -17,4 +17,3 @@ function calc(BMI) {
     }
 }
 
-calc(BMI);
