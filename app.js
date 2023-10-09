@@ -1,8 +1,8 @@
-const x = Number(prompt("enter your height in inches"))
-const y = Number(prompt("enter your weight in pounds"))
+const x = Number(prompt("enter your height in cm"))
+const y = Number(prompt("enter your weight in kg"))
 
 function BMI(x,y){
-    console.log(y/(x*x)*703);
+    console.log(y/(x*x)*10000);
 }
 BMI(x,y);
 
@@ -15,8 +15,5 @@ function calc(BMI) {
     } else {
         console.log("overweight");
     }
-    if (BMI > 30){
-        console.log("obese")
-    }
 }
-calc(y/(x*x)*703)
+calc(y/(x*x)*10000)
