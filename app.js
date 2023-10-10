@@ -53,7 +53,7 @@ function calculate(user){
 function compare(bmi){
     if (bmi < 18.5){
         console.log("underweight");
-        console.log(":)")
+        console.log(":(")
     } else if (bmi < 24.9){
         console.log("healthy weight");
         console.log(":)")
